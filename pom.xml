@@ -151,7 +151,7 @@
 				</pluginManagement>
 			</build>
 		</profile>
-	</profiles>
+	
 	
 	<profile>
 			<id>cucumberTest</id>
@@ -177,7 +177,7 @@
 				</pluginManagement>
 			</build>
 		</profile>
-
+</profiles>
 
 	<build>
 		<pluginManagement><!-- lock down plugins versions to avoid using Maven

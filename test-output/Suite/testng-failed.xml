@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Error Validation(failed)">
+    <classes>
+      <class name="DirashLearning.SeliniuimFrameworkTest.ErrorValidations">
+        <methods>
+          <include name="exitDriver"/>
+          <include name="Errorvalidation"/>
+          <include name="LaunchApplication"/>
+        </methods>
+      </class> <!-- DirashLearning.SeliniuimFrameworkTest.ErrorValidations -->
+    </classes>
+  </test> <!-- Error Validation(failed) -->
+  <test thread-count="5" parallel="tests" name="Submit order(failed)">
+    <classes>
+      <class name="DirashLearning.SeliniuimFrameworkTest.SubmitOrder">
+        <methods>
+          <include name="exitDriver"/>
+          <include name="orderHistory"/>
+          <include name="submitOrder" invocation-numbers="0"/>
+          <include name="LaunchApplication"/>
+        </methods>
+      </class> <!-- DirashLearning.SeliniuimFrameworkTest.SubmitOrder -->
+    </classes>
+  </test> <!-- Submit order(failed) -->
+</suite> <!-- Failed suite [Suite] -->
